@@ -1,0 +1,49 @@
+.content {
+   padding: 40px;
+   margin-top: 100px;
+   width: 70vw;
+   min-width: 500px;
+   margin-left: 15vw;
+   margin-right: auto;
+   h1 {
+     text-align: left;
+   }
+ }
+
+ .headerCard {
+   display: flex;
+   align-items: center;
+   margin: 0;
+   margin-bottom: 40px;
+   justify-content: space-between;
+ }
+
+ .items {
+   display: flex;
+   flex-wrap: wrap;
+ }
+
+ .searchBlock {
+   border: 1px solid #f3f3f3;
+   border-radius: 10px;
+   display: flex;
+   align-items: center;
+   padding: 0 15px;
+   
+   &:hover {
+     border-color: #c2c2c2;
+   }
+   input {
+     border: 0;
+     padding: 12px;
+     display: flex;
+     outline: none;
+     width: 10rem;
+   }
+   span {
+     font-size: 1.8rem;
+     margin: 0;
+     margin-top: 0.3rem;
+     opacity: 0.4;
+   }
+}
